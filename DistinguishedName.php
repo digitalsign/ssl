@@ -64,7 +64,7 @@ class DistinguishedName
         $emailAddress = null,
         array $subjectAlternativeNames = []
     ) {
-        Assert::stringNotEmpty($commonName, __CLASS__.'::$commonName expected a non empty string. Got: %s');
+        //Assert::stringNotEmpty($commonName, __CLASS__.'::$commonName expected a non empty string. Got: %s');
         Assert::nullOrString($countryName, __CLASS__.'::$countryName expected a string. Got: %s');
         Assert::nullOrString($stateOrProvinceName, __CLASS__.'::$stateOrProvinceName expected a string. Got: %s');
         Assert::nullOrString($localityName, __CLASS__.'::$localityName expected a string. Got: %s');
